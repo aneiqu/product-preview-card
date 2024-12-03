@@ -95,6 +95,12 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#cart-button:hover {
+  background-color: #1a4032;
 }
 
 #cart-text {
